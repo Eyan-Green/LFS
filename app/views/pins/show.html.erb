@@ -1,12 +1,12 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Lat:</strong>
+  <strong>Latitude:</strong>
   <%= @pin.lat %>
 </p>
 
 <p>
-  <strong>Long:</strong>
+  <strong>Longitude:</strong>
   <%= @pin.long %>
 </p>
 
@@ -18,11 +18,6 @@
 <p>
   <strong>Popup:</strong>
   <%= @pin.popup %>
-</p>
-
-<p>
-  <strong>Text:</strong>
-  <%= @pin.text %>
 </p>
 
 <%= link_to 'Edit', edit_pin_path(@pin) %> |
