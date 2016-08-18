@@ -10,16 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160818132002) do
+ActiveRecord::Schema.define(version: 20160818133924) do
 
   create_table "pins", force: :cascade do |t|
     t.decimal  "lat"
     t.decimal  "long"
     t.string   "name"
-    t.string   "popup"
-    t.string   "text"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text     "popup"
   end
 
 end
