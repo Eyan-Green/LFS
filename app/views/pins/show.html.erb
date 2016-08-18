@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Lat:</strong>
+  <%= @pin.lat %>
+</p>
+
+<p>
+  <strong>Long:</strong>
+  <%= @pin.long %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @pin.name %>
+</p>
+
+<p>
+  <strong>Popup:</strong>
+  <%= @pin.popup %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @pin.text %>
+</p>
+
+<%= link_to 'Edit', edit_pin_path(@pin) %> |
+<%= link_to 'Back', pins_path %>
